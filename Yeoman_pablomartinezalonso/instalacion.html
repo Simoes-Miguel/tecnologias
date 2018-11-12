@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yeoman</title>
+	<link rel="icon" type="image/jpg" href="man.jpg">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Yeoman</h1>
+        <img src="inicio.png">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a class="active" href="#instalacion">INSTALACIÓN</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <p>
+            La mayoría de tus interacciones con Yeoman se realizarán a través de la línea de comandos.
+            Ejecuta comandos en la aplicación terminal  si estás en Mac, tu Shell en Linux o cmd.exe si estás en Windows.
+            </p>
+            <hr>
+            <hr>
+            <h3>Instalar requisitos</h3>
+            <p>Antes de la instalación vas a necesitar lo siguiente:</p>
+                <ol>
+                    <li>Node.js 6 o superior</li><br>
+                    <li>npm3 o superior (que viene bundleado con Node)</li><br>
+                    <li>Git</li>
+                </ol>
+            <br>
+            <p>
+                Puedes verificar si tienes Node y npm installado escribiendo:
+            </p>
+            <br>
+            <strong>node --version && npm --version</strong><br><br>
+            <P>
+                Si necesitas actualizar o instalar Node, la manera mas sencilla es usando el instalador para tu plataforma. Descarga el <i>.msi</i> para Windows o el <i>.pkg</i> para Mac de la pagina web de NodeJS.
+                El package manager de npm viene bundleado con el Node. Tan solo hace falta actualizarlo. Algunas versiones de Node traen versiones antiguas del npm.
+                Puedes actualizar npm usando este comando:
+            </P><br><br>
+            <strong>npm install --global npm@latest</strong><br><br>
+            <p>
+                Puedes verificar si tienes git instalado escribiendo:
+            </p><br><br>
+            <strong>git --version</strong><br><br>
+            <p>
+                Si no tienes instalado Git coge los instaladores de la página web de Git
+            </p><hr>
+            <h3>Instala el conjunto de herramientas Yeoman</h3><br><br>
+            <strong>npm install --global yo</strong><br><br><br><hr>
+            <h3>Confirmar la instalación</h3>
+            <p>Para comprobar que la instalacion se realizó con exito</p><br><br>
+            <strong>yo --version</strong><br><br><br>
+            <hr>
+            <h3>Instala un generador</h3>
+            <p>Instala generator-fountain-webapp usando este comando. Hay alrededor de 3500 generadores disponibles, siendo la mayoría de ellos escritos por la comunidad.</p><br><br>
+            <strong>npm install --global generator-fountain-webapp</strong><br><br>
+            <p>Puedes instalar directamente generadores a través de Yeoman. Ejecutando "yo" y seleccionando intallar generador.</p>
+            <hr><hr><br>
+            <p><a href="http://yeoman.io/codelab/scaffold-app.html">STEP 3: Use a generator to scaffold out your app</a><br>Configuración del proyecto y del generador</p>
+        </article>
+    </section>
+    <footer>
+            <sub>Pablo Martínez Alonso</sub>
+    </footer>
+<body
