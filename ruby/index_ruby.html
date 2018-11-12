@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+    <link rel="stylesheet" type="text/css" href="estilo_ruby.css">
+    <style>
+        div {
+            border: 1px solid rgba(31, 30, 30, 0.404);
+            box-sizing: border-box;
+            align-content: center;
+            margin: 0 auto;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            border-radius: 7px;
+        }
+
+        .cabezaI,
+        .cuerpoI {
+            display: block;
+            box-sizing: border-box;
+            border: none;
+        }
+
+        .cabezaII {
+            max-width: 980px;
+        }
+
+        .contenidoI {
+            max-width: 980px;
+            border: none;
+            border-top: 1px solid rgba(31, 30, 30, 0.404);
+        }
+
+        .cabezaII {
+            padding: 30px 24px 24px 24px;
+            position: relative;
+        }
+
+        .cuerpoI {
+            text-align: left;
+            display: table;
+            table-layout: fixed;
+            border-collapse: collapse;
+            width: 100%;
+
+        }
+
+        .cuerpoII {
+            width: 70%;
+            display: table-cell;
+            vertical-align: top;
+            padding: 0 48px;
+        }
+
+        .barraMenu {
+            border-bottom: 1px solid rgb(204, 204, 204);
+            background: rgb(246, 246, 243);
+            text-shadow: 0 1px 0 rgb(255, 255, 255);
+            padding: 20px 24px;
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+            border-radius: 3px;
+            margin: 24px 48px 24px 0;
+            max-width: 30%;
+            float: left;
+        }
+
+        .contenidoII {
+            width: 70%;
+            display: table-cell;
+            vertical-align: top;
+            padding: 0 48px;
+            text-align: left;
+            border: none;
+        }
+
+        .cajaG {
+            float: left;
+        }
+
+        .usoRuby {
+            float: right;
+        }
+
+        .resumen,
+        .historia,
+        .usoRuby,
+        .cajaG {
+            margin-top: 20px;
+            padding: 15px;
+            color: rgb(75, 75, 75);
+        }
+
+        .cabezaII,
+        .barraMenu,
+        .resumen,
+        .historia,
+        .usoRuby,
+        .cajaG {
+            box-shadow: 0 0 15px 0 rgba(153, 153, 153, .5);
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cabezaI">
+        <div class="cabezaII"><span><strong>RUBY</strong></span> <img height="50" style="margin-left: 15%" src="ruby_logo.jpg"> </div>
+    </div>
+
+    <div class="cuerpoI">
+        <div class="contenidoI">
+            <div class="barraMenu">
+                <u>Creador: </u><i>Yukihiro Matsumoto</i><br /><br />
+                <u>Año creación: </u><i>1995</i><br /><br />
+                <u>Basado en: </u><i>Python, Pearl</i>
+            </div>
+            <div class="contenidoII">
+                <div class="resumen"> <strong>Resumen</strong><br /> Ruby es un lenguaje de programación interpretado,
+                    reflexivo y orientado a
+                    objetos, creado por el programador japonés Yukihiro "Matz" Matsumoto, quien comenzó a trabajar en
+                    Ruby en 1993, y lo presentó públicamente en 1995. Combina una sintaxis inspirada en Python y Perl
+                    con características de programación orientada a objetos similares a Smalltalk. Comparte también
+                    funcionalidad con otros lenguajes de programación como Lisp, Lua, Dylan y CLU. Ruby es un lenguaje
+                    de programación interpretado en una sola pasada y su implementación oficial es distribuida bajo una
+                    licencia de software libre.</div>
+                <div class="historia"><strong>Historia</strong><br /> El lenguaje fue creado por Yukihiro "Matz"
+                    Matsumoto, quien empezó a trabajar en
+                    Ruby el 24 de febrero de 1993, y lo presentó al público en el año 1995. En el círculo de amigos de
+                    Matsumoto se le puso el nombre de Ruby (en español rubí) como broma aludiendo al lenguaje de
+                    programación Perl (perla en inglés). La última versión estable de la rama 1.8 es la 1.8.7_p248, de
+                    la rama 1.9 es la 1.9.2_p180 . La versión en 1.9 que incorpora mejoras sustanciales en el
+                    rendimiento del lenguaje, que se espera queden reflejadas en la próxima versión estable de
+                    producción del lenguaje, Ruby 1.9.0.1 Diferencias en rendimiento entre la actual implementación de
+                    Ruby (1.8.6) y otros lenguajes de programación más arraigados han llevado al desarrollo de varias
+                    máquinas virtuales para Ruby. Entre ésas se encuentra JRuby, un intento de llevar Ruby a la
+                    plataforma Java, y Rubinius, un intérprete modelado basado en las máquinas virtuales de Smalltalk.
+                    Los principales desarrolladores han apoyado la máquina virtual proporcionada por el proyecto YARV,
+                    que se fusionó en el árbol de código fuente de Ruby el 31 de diciembre de 2006, y se dio a conocer
+                    como Ruby 1.9</div>
+                <div class="cajaG"> <strong>Filosofía</strong><br />Ruby está diseñado para la productividad y la
+                    diversión del desarrollador, siguiendo los principios de una buena interfaz de usuario.2​ Sostiene
+                    que el diseño de sistemas necesita enfatizar las necesidades humanas más que las de la máquina.
+                    <blockquote>A menudo la gente, especialmente los ingenieros en computación, se centran en las
+                        máquinas. Ellos piensan, "Haciendo esto, la máquina funcionará más rápido. Haciendo esto, la
+                        máquina funcionará de manera más eficiente. Haciendo esto..." Están centrados en las máquinas,
+                        pero en realidad necesitamos centrarnos en las personas, en cómo hacen programas o cómo manejan
+                        las aplicaciones en los ordenadores. Nosotros somos los jefes. Ellos son los esclavos.</blockquote>
+                </div>
+                <div class="usoRuby"> <strong>Semántica</strong><br />Ruby es orientado a objetos: todos los tipos de
+                    datos son un objeto, incluidas las clases y tipos que otros lenguajes definen como primitivas,
+                    (como enteros, booleanos, y nil). Toda función es un método. Las variables siempre son referencias
+                    a objetos, no los objetos mismos. Ruby soporta herencia con enlace dinámico, mixins y métodos
+                    singleton (pertenecientes y definidos por una sola instancia más que definidos por la clase). A
+                    pesar de que Ruby no soporta herencia múltiple, la clases pueden importar módulos como mixins. Es
+                    compatible con la sintaxis procedimental, pero todos los métodos definidos fuera del ámbito de un
+                    objeto son realmente métodos de la clase Object. Como esta clase es padre de todas las demás, los
+                    cambios son visibles para todas las clases y objetos.</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
